@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AKAY Enterprises</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="ChatGPT Image Sep 30, 2025, 10_49_59 AM.png" alt="AKAY logo" class="logo-img">
+      <span class="brand">AKAY Enterprises</span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#farming">Farming</a></li>
+      <li><a href="#ceo">CEO</a></li>
+    </ul>
+
+    <a href="#contact" class="btn blue-btn nav-btn">Contact Us</a>
+    <button id="hamburger" class="hamburger" aria-label="Open menu">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Welcome to <span>AKAY</span></h1>
+        <p>
+          Your trusted partner in Ice Block Sales, IT Services, Construction, and Farming.  
+          Innovation, quality, and reliability — all in one place.
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn blue-btn">Explore Services</a>
+          <button class="btn white-btn" onclick="openOrderForm()">Place an Order</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="WhatsApp Image 2025-09-30 at 10.51.31_8aa8e5c3.jpg" alt="AKAY Services">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About AKAY</h2>
+      <p class="section-sub">
+        AKAY Enterprises is a diversified business delivering quality across Cool Store, 
+        Computer & IT services, Construction & Consultancy, and Farming.
+      </p>
+
+      <div class="about-grid">
+        <img src="WhatsApp Image 2025-09-30 at 10.51.31_8aa8e5c3.jpg" alt="About AKAY" class="about-image">
+        <div class="about-text">
+          <p>
+            We focus on practical solutions, safety, and long-term value. 
+            Our teams bring on-ground experience and a commitment to excellent service delivery.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <img src="view-crystal-clear-ice-cubes.jpg" alt="Ice blocks — Cool Store">
+          <h3>Cool Store — Ice Blocks</h3>
+          <p>Clean bulk ice blocks for markets, events, and cold-chain needs.</p>
+          <div class="card-actions">
+            <button class="btn blue-btn" onclick="openOrderForm('Cool Store — Ice Blocks')">Place Order</button>
+            <a class="link" href="#contact">Contact</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="crop-people-using-laptops-office.jpg" alt="IT Services">
+          <h3>Computer & IT Services</h3>
+          <p>Printing, typing, lamination, photocopy, research center and graphic design.</p>
+          <div class="card-actions">
+            <button class="btn blue-btn" onclick="openOrderForm('Computer & IT Services')">Place Order</button>
+            <a class="link" href="#contact">Contact</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="full-shot-man-construction-site.jpg" alt="Construction & consultancy">
+          <h3>Okay Consult — Construction</h3>
+          <p>Road & building works, asphalt surfacing, paving stones, and equipment leasing.</p>
+          <div class="card-actions">
+            <button class="btn blue-btn" onclick="openOrderForm('Okay Consult — Construction')">Request Quote</button>
+            <a class="link" href="#contact">Contact</a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+
+
+  <!-- FARMING -->
+  <section id="farming" class="section farming">
+    <div class="container">
+      <h2>Farming Ventures</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <img src="selective-closeup-shot-pink-pigs-barn.jpg" alt="Piggery">
+          <h3>Piggery</h3>
+          <p>Sustainable pig farming — supply, training and bulk orders available.</p>
+          <div class="card-actions">
+            <button class="btn blue-btn" onclick="openOrderForm('Piggery')">Place Order</button>
+            <a class="link" href="#contact">Contact</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="snail-crawling-small-wet-rocks-ground.jpg" alt="Snailery">
+          <h3>Snailery</h3>
+          <p>Commercial snail farming with eco-friendly practices.</p>
+          <div class="card-actions">
+            <button class="btn blue-btn" onclick="openOrderForm('Snailery')">Place Order</button>
+            <a class="link" href="#contact">Contact</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CEO -->
+  <section id="ceo" class="section ceo">
+    <div class="container">
+      <h2>About the CEO</h2>
+      <div class="ceo-grid">
+        <img src="WhatsApp Image 2025-09-30 at 11.55.38_842c685e.jpg" alt="CEO photo" class="ceo-photo">
+        <div class="ceo-text">
+          <p>
+            The CEO of AKAY Enterprises is a hands-on entrepreneur with wide experience 
+            in construction, IT and agribusiness. Driven by quality and community impact.
+          </p>
+          <p>Email: <a href="akintundeomileye@gmail.com" class="link">ceo@akay.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" class="contact-form" onsubmit="submitContact(event)">
+        <input name="name" type="text" placeholder="Full name" required>
+        <input name="email" type="email" placeholder="Email address" required>
+        <input name="phone" type="tel" placeholder="Phone (optional)">
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn blue-btn">Send</button>
+        </div>
+        <div id="contactFeedback" class="feedback" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> AKAY Enterprises. All rights reserved.</p>
+        <p class="credit">
+          Designed by Omileye Victor Opeoluwa — 
+          <a href="mailto:victorsoalopeoluwa@gmail.com">victorsoalopeoluwa@gmail.com</a> | 
+          <a href="https://wa.me/2347035356591" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" 
+                 alt="WhatsApp" style="width:16px; height:16px; vertical-align:middle; margin-right:6px;">
+            07035356591
+          </a>
+          <a href="https://wa.me/2347035356591?text=Hello%20Victor,%20I%20love%20the%20AKAY%20website!" 
+             target="_blank" class="footer-whatsapp">
+             Chat on WhatsApp
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ORDER MODAL -->
+  <div id="orderModal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <h3 id="orderTitle">Place Order</h3>
+      <p id="orderSubtitle" class="muted">
+        Complete the form below. Your order will be sent to WhatsApp and also stored via email.
+      </p>
+
+      <form id="orderForm" method="POST" class="order-form">
+        <input type="hidden" name="_subject" value="New AKAY Order">
+        <input type="hidden" id="serviceInput" name="Service" value="">
+
+        <label>
+          Full name *
+          <input type="text" id="orderName" name="Name" required>
+        </label>
+        <label>
+          Email *
+          <input type="email" id="orderEmail" name="Email" required>
+        </label>
+        <label>
+          Phone
+          <input type="tel" id="orderPhone" name="Phone">
+        </label>
+        <label>
+          Quantity / Details
+          <textarea id="orderDetails" name="Details" rows="4" 
+                    placeholder="Quantity, preferred date, delivery address, special instructions..."></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn blue-btn">Submit Order</button>
+        </div>
+
+        <div id="orderFeedback" class="feedback" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
